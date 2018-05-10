@@ -9,8 +9,9 @@ def speak_to_grandma(phrase)
     "HUH?! SPEAKUP SONNY!"
   else phrase == phrase.uppercase
     "NO, NOT SINCE 1938!"
+  end  
 end
-    
+
 
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
