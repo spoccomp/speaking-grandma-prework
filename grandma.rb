@@ -4,13 +4,12 @@ def speak_to_grandma(phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
   
-  if phrase == phrase.lowercase
-    "HUH?! SPEAKUP SONNY!"
-  elsif condition
-    phrase == "I LOVE YOU TOO PUMPKIN"
-      "I LOVE YOU TOO PUMPKIN"
+  if phrase == phrase.lowercase || phrase == phrase.reverse || phrase.capitalize
+    puts "HUH?! SPEAKUP SONNY!"
+  elsif phrase == "I LOVE YOU TOO PUMPKIN"
+    puts "I LOVE YOU TOO PUMPKIN"
   else phrase == phrase.uppercase
-    "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   end
 end
 
